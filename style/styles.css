@@ -1,0 +1,17 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: #000;
+  color: aliceblue;
+}
+
+h1,
+h2 {
+  color: tomato;
+}
+
+ul > li {
+  color: green;
+}
