@@ -11,19 +11,19 @@ const mainContainer = document.getElementById("main_container");
 
 const section = document.createElement('section')
 const h1 = document.createElement('h1')
-h1.innerText = 'my ciggrate brand'
+h1.innerText = 'my fav food'
 section.appendChild(h1)
 
 const ul = document.createElement('ul')
 const li = document.createElement('li')
-li.innerText = 'star'
+li.innerText = 'biriyani'
 ul.appendChild(li)
 const li1 = document.createElement('li')
-li1.innerText = 'royal'
+li1.innerText = 'pasta'
 ul.appendChild(li1)
 
 const li2 = document.createElement('li')
-li2.innerText = 'lucky sada'
+li2.innerText = 'chicken chap'
 ul.appendChild(li2)
 
 section.appendChild(ul)
