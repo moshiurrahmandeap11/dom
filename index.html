@@ -8,14 +8,29 @@
   </head>
   <body>
     <header><h1>My first DOM</h1></header>
-    <main>
-      <h2 id="dom-title">DOM list</h2>
-      <ul class="dom_class">
-        <li class="first-class">Moshiur</li>
-        <li class="first-class">Rahman</li>
-        <li>Deap</li>
-      </ul>
+    <main id="main_container">
+      <section>
+        <div class="container">
+          <h2 id="dom-title">DOM list</h2>
+          <ul class="dom_class moshi moshi_class" id="dom-classs">
+            <li class="first-class">Moshiur</li>
+            <li class="first-class">Rahman</li>
+            <li>Deap</li>
+          </ul>
+        </div>
+      </section>
+
+      <section id="moshiur_container">
+        <h1 class="sir_moshiur">Sir Moshiur</h1>
+        <ul id="moshiur_list">
+          <li>HTML</li>
+          <li>css</li>
+          <li>Tailwind Css</li>
+        </ul>
+      </section>
     </main>
     <script src="./js/dom.js"></script>
+    <script src="./js/append.js"></script>
+    <script src="./js/style.js"></script>
   </body>
 </html>

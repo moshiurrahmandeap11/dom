@@ -30,5 +30,12 @@ for (const iD of queryID){
 }
 
 const queryClass = document.querySelector('.dom_class li');
-console.log(queryClass);
+// console.log(queryClass);
 
+
+const styleID = document.getElementById('dom-title').style.textAlign='center'
+
+
+
+const subtitle = document.getElementById("dom-title");
+subtitle.setAttribute('title', 'tooltip set by moshiur')
